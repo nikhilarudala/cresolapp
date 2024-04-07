@@ -1,0 +1,25 @@
+.body{
+    background-color: #001324 !important;
+}
+.width1{
+    display: flex; flex-direction: column; flex: 1; justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+@media screen and (max-width:500px) {
+    .width2
+    {
+        width: 50%;
+    }
+}
+@media screen and (min-width:500px){
+    .width2{
+        width: 30%;
+    }
+    .height2
+    {
+        height: 50px;
+        border-radius: 10px;
+    }
+}
